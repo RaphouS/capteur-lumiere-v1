@@ -1,10 +1,10 @@
 #include <Arduino.h>
-#include "help.h"
-#include "com_esp_now.h"
 #include <WiFi.h>
 #include <time.h>
 #include <DFRobot_B_LUX_V30B.h>
-#include<Wire.h>
+#include <Wire.h>
+#include "help.h"
+#include "com_esp_now.h"
 
 // Définition de la règle de fuseau horaire (Exemple pour la France/Paris)
 // CET = Central European Time
