@@ -42,8 +42,9 @@ void setup()
   pinMode(EN_PIN, OUTPUT);
   digitalWrite(EN_PIN, HIGH); // Active le capteur de luminosité (EN_PIN à HIGH)
 
-  Wire.begin();
-  luxSensor.begin();
+  //Initialisation de la communication avec le capteur de luminosité
+    Wire.begin();
+  //luxSensor.begin();
   
   Serial.println("Setup complete. Starting LED blink...");
   //macAddress = getMacAddress(); // Appel de la fonction pour récupérer l'adresse MAC
